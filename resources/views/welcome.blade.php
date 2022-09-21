@@ -203,45 +203,45 @@
                     </div>
                 </div>
             </section>
-            <section class="py-24 bg-gray-900 dark:bg-gray-800 dark:text-gray-100">
+            <section class="py-24 bg-gray-900">
                 <div class="container px-4 mx-auto">
                     <div class="max-w-2xl mx-auto mb-16 text-center">
-                        <span class="font-semibold tracking-wider uppercase font-semibold text-white dark:text-violet-400">Table des prix</span>
+                        <span class="font-semibold tracking-wider uppercase font-semibold text-white">Table des prix</span>
                         <h2 class="text-4xl bold text-white lg:text-5xl">Choisissez votre offre</h2>
                     </div>
                     <div class="flex flex-wrap items-stretch justify-center w-5/6 m-auto">
                         <div class="flex w-full mb-8 md:w-1/2 lg:w-1/3 lg:mb-0">
-                            <div class="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-black dark:bg-gray-900 w-full">
+                            <div class="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-black w-full">
                                 <div class="space-y-2">
                                     <h4 class="text-2xl text-white font-bold">Découverte</h4>
                                     <span class="text-6xl text-white font-bold">25 €</span>
                                 </div>
-                                <p class="mt-3 leading-relaxed dark:text-gray-400 text-red-600">Pour découvrir la photo.</p>
-                                <ul class="flex-1 mb-6 dark:text-gray-400 text-red-600">
+                                <p class="mt-3 leading-relaxed text-red-600">Pour découvrir la photo.</p>
+                                <ul class="flex-1 mb-6 text-red-600">
                                     <li class="flex mb-2 space-x-2">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6 dark:text-violet-400">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6">
                                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                                         </svg>
                                         <span>Aenean quis</span>
                                     </li>
                                     <li class="flex mb-2 space-x-2">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6 dark:text-violet-400">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6">
                                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                                         </svg>
                                         <span>Morbi semper</span>
                                     </li>
                                     <li class="flex mb-2 space-x-2">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6 dark:text-violet-400">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6">
                                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                                         </svg>
                                         <span>Tristique enim nec</span>
                                     </li>
                                 </ul>
-                                <button type="button" class="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-red-600 text-black dark:bg-violet-400 dark:text-gray-900">Prendre RDV</button>
+                                <button type="button" class="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-red-600 text-black">Prendre RDV</button>
                             </div>
                         </div>
                         <div class="flex w-full mb-8 md:w-1/2 lg:w-1/3 lg:mb-0 rounded-lg">
-                            <div class="flex flex-col px-6 space-y-6 rounded-lg shadow sm:p-8 bg-red-600 dark:bg-violet-400 dark:text-gray-900 w-full" style="height: 112%; margin-top: -7%">
+                            <div class="flex flex-col px-6 space-y-6 rounded-lg shadow sm:p-8 bg-red-600 w-full" style="height: 112%; margin-top: -7%">
                                 <div class="space-y-2">
                                     <h4 class="text-2xl text-white font-bold">Pro</h4>
                                     <span class="text-6xl text-white font-bold">50 €</span>
@@ -267,43 +267,43 @@
                                         <span>Groupe</span>
                                     </li>
                                 </ul>
-                                <a rel="noopener noreferrer" href="#" class="inline-block w-full px-5 py-3 text-white font-bold tracking-wider text-center rounded bg-black text-red-600 dark:bg-gray-800 dark:text-violet-400">Prendre RDV</a>
+                                <a rel="noopener noreferrer" href="#" class="inline-block w-full px-5 py-3 text-white font-bold tracking-wider text-center rounded bg-black text-red-600">Prendre RDV</a>
                             </div>
                         </div>
                         <div class="flex w-full mb-8 md:w-1/2 lg:w-1/3 lg:mb-0">
-                            <div class="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-black dark:bg-gray-900 w-full">
+                            <div class="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-black w-full">
                                 <div class="space-y-2">
                                     <h4 class="text-2xl text-white font-bold">Evènements</h4>
                                     <span class="text-6xl text-white font-bold">100 €</span>
                                 </div>
-                                <p class="leading-relaxed dark:text-red-400 text-red-600">Pour pas se prendre la tête.</p>
-                                <ul class="space-y-2 dark:text-red-400 text-red-600">
+                                <p class="leading-relaxed text-red-600">Pour pas se prendre la tête.</p>
+                                <ul class="space-y-2 text-red-600">
                                     <li class="flex items-start space-x-2">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6 dark:text-violet-400">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6">
                                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                                         </svg>
                                         <span>Prises illimitées</span>
                                     </li>
                                     <li class="flex items-start space-x-2">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6 dark:text-violet-400">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6">
                                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                                         </svg>
                                         <span>Individuel</span>
                                     </li>
                                     <li class="flex items-start space-x-2">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6 dark:text-violet-400">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6">
                                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                                         </svg>
                                         <span>Groupe</span>
                                     </li>
                                     <li class="flex items-start space-x-2">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6 dark:text-violet-400">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6">
                                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                                         </svg>
                                         <span>Scène</span>
                                     </li>
                                 </ul>
-                                <a rel="noopener noreferrer" href="#" class="inline-block w-full px-5 py-3 font-semibold tracking-wider text-center rounded bg-red-600 text-black dark:bg-violet-400 dark:text-gray-900">Prendre RDV</a>
+                                <a rel="noopener noreferrer" href="#" class="inline-block w-full px-5 py-3 font-semibold tracking-wider text-center rounded bg-red-600 text-black">Prendre RDV</a>
                             </div>
                         </div>
                     </div>

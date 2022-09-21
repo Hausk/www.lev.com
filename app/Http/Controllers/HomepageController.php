@@ -9,7 +9,7 @@ class HomepageController extends Controller
 {
     public function index()
     {
-        $images = DB::table('images')->latest()->take(10)->get();
+        $images = DB::table('images')->latest()->take(9)->get();
         return view('welcome', ['images' => $images]);
     }
 }
