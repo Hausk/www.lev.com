@@ -222,19 +222,19 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6">
                                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                                         </svg>
-                                        <span>Aenean quis</span>
+                                        <span>100 Prises</span>
                                     </li>
                                     <li class="flex mb-2 space-x-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6">
                                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                                         </svg>
-                                        <span>Morbi semper</span>
+                                        <span>Individuel</span>
                                     </li>
                                     <li class="flex mb-2 space-x-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6">
                                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                                         </svg>
-                                        <span>Tristique enim nec</span>
+                                        <span>Groupe</span>
                                     </li>
                                 </ul>
                                 <button type="button" class="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-red-600 text-black">Prendre RDV</button>
@@ -273,7 +273,7 @@
                         <div class="flex w-full mb-8 md:w-1/2 lg:w-1/3 lg:mb-0">
                             <div class="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-black w-full">
                                 <div class="space-y-2">
-                                    <h4 class="text-2xl text-white font-bold">Evènements</h4>
+                                    <h4 class="text-2xl text-white font-bold">Évènements</h4>
                                     <span class="text-6xl text-white font-bold">100 €</span>
                                 </div>
                                 <p class="leading-relaxed text-red-600">Pour pas se prendre la tête.</p>
@@ -300,7 +300,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6">
                                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                                         </svg>
-                                        <span>Scène</span>
+                                        <span>Évènements spécial</span>
                                     </li>
                                 </ul>
                                 <a rel="noopener noreferrer" href="#" class="inline-block w-full px-5 py-3 font-semibold tracking-wider text-center rounded bg-red-600 text-black">Prendre RDV</a>
