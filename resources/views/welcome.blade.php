@@ -210,7 +210,7 @@
                         <h2 class="text-4xl bold text-white lg:text-5xl">Choisissez votre offre</h2>
                     </div>
                     <div class="flex flex-wrap items-stretch justify-center w-5/6 m-auto">
-                        <div class="flex w-full mb-8 md:w-1/2 lg:w-1/3 lg:mb-0">
+                        <div class="flex w-full mb-8 lg:w-1/3 lg:mb-0">
                             <div class="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-black w-full">
                                 <div class="space-y-2">
                                     <h4 class="text-2xl text-white font-bold">Découverte</h4>
@@ -240,8 +240,8 @@
                                 <button type="button" class="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-red-600 text-black">Prendre RDV</button>
                             </div>
                         </div>
-                        <div class="flex w-full mb-8 md:w-1/2 lg:w-1/3 lg:mb-0 rounded-lg">
-                            <div class="flex flex-col px-6 space-y-6 rounded-lg shadow sm:p-8 bg-red-600 w-full" style="height: 112%; margin-top: -7%">
+                        <div class="flex w-full mb-8 lg:w-1/3 lg:mb-0 lg:rounded-lg sm-h-full">
+                            <div class="flex flex-col p-6 space-y-6 rounded-lg shadow sm:p-8 bg-red-600 w-full lg:-mt-7" style="height: 112%;">
                                 <div class="space-y-2">
                                     <h4 class="text-2xl text-white font-bold">Pro</h4>
                                     <span class="text-6xl text-white font-bold">50 €</span>
@@ -270,7 +270,7 @@
                                 <a rel="noopener noreferrer" href="#" class="inline-block w-full px-5 py-3 text-white font-bold tracking-wider text-center rounded bg-black text-red-600">Prendre RDV</a>
                             </div>
                         </div>
-                        <div class="flex w-full mb-8 md:w-1/2 lg:w-1/3 lg:mb-0">
+                        <div class="flex w-full mb-8 lg:w-1/3 lg:mb-0">
                             <div class="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-black w-full">
                                 <div class="space-y-2">
                                     <h4 class="text-2xl text-white font-bold">Évènements</h4>
