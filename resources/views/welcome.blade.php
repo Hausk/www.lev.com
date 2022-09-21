@@ -311,8 +311,5 @@
             </section>
         </main>
         <footer-component></footer-component>
-        <script>
-            AOS.init();
-        </script>
     </body>
 </html>
