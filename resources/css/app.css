@@ -41,4 +41,10 @@
   .sm-h-full {
     height: 100%;
   }
+  figure {
+    margin-bottom: 5px;
+  }
+  .gallery-container {
+    column-gap: 5px;
+  }
 }

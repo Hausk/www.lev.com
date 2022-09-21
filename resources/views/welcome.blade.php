@@ -62,10 +62,8 @@
                         >Mini parti enlevable</a
                     >
                     </div>
-                    <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
-                    <div
-                        class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-red-600"
-                    >
+                    <div class="w-full md:w-4/12 px-4 mr-auto ml-auto mt-8 lg:mt-0">
+                    <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-red-600">
                         <img
                         alt="..."
                         src="{{ url('storage/static/bannerHome.jpg') }}"
@@ -115,7 +113,7 @@
                     ></polygon>
                 </svg>
                 </div>
-                <div class="gallery-container w-4/6 m-auto overflow-hidden">
+                <div class="gallery-container w-full lg:w-4/6 m-auto overflow-hidden">
                     @php
                         $aos = ['fade-up', 'fade-down', 'fade-right', 'fade-left', 'fade-up-right', 'fade-up-left', 'fade-down-right', 'fade-down-left',
                                 'slide-up', 'slide-down', 'slide-left', 'slide-right'];
@@ -149,7 +147,7 @@
                         ></polygon>
                     </svg>
                 </div>
-                <div class="container mx-auto px-4 lg:pt-24">
+                <div class="container mx-auto px-4 pt-8 lg:pt-24">
                     <div class="flex flex-wrap text-center justify-center">
                         <div class="w-full lg:w-6/12 px-4">
                         <h2 class="text-4xl font-semibold text-white">Suivez moi sur les réseaux</h2>
