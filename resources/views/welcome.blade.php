@@ -54,14 +54,12 @@
                     <p
                         class="text-lg leading-relaxed mt-0 mb-4 text-gray-500"
                     >
-                        The kit comes with three pre-built pages to help you get started
-                        faster. You can change the text and images and you're good to
-                        go. Just make sure you enable them first via JavaScript.
+                        [Ajouter un mini paragraphe]
                     </p>
                     <a
                         href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
                         class="mt-8 mb-4 text-gray-500"
-                        >Check Tailwind Starter Kit!</a
+                        >Mini parti enlevable</a
                     >
                     </div>
                     <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
@@ -156,9 +154,7 @@
                         <div class="w-full lg:w-6/12 px-4">
                         <h2 class="text-4xl font-semibold text-white">Suivez moi sur les réseaux</h2>
                         <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-                            Put the potentially record low maximum sea ice extent tihs year
-                            down to low ice. According to the National Oceanic and
-                            Atmospheric Administration, Ted, Scambos.
+                            Ajouter un texte mi-long et constructif pq suivre sur les réseaux
                         </p>
                         </div>
                     </div>
@@ -172,8 +168,7 @@
                             Instagram
                         </h6>
                         <p class="mt-2 mb-4 text-gray-500">
-                            Some quick example text to build on the card title and make up
-                            the bulk of the card's content.
+                            Ajouter du texte court et constructif
                         </p>
                         </div>
                         <div class="w-full lg:w-3/12 px-4 text-center">
@@ -186,8 +181,7 @@
                             TikTok
                         </h5>
                         <p class="mt-2 mb-4 text-gray-500">
-                            Some quick example text to build on the card title and make up
-                            the bulk of the card's content.
+                            Ajouter du texte court et constructif
                         </p>
                         </div>
                         <div class="w-full lg:w-3/12 px-4 text-center">
@@ -196,8 +190,7 @@
                         </div>
                         <h5 class="text-xl mt-5 font-semibold text-white">Facebook</h5>
                         <p class="mt-2 mb-4 text-gray-500">
-                            Some quick example text to build on the card title and make up
-                            the bulk of the card's content.
+                            Ajouter du texte court et constructif
                         </p>
                         </div>
                     </div>
