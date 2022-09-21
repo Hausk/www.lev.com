@@ -36,3 +36,9 @@
     column-count: 3;
     column-gap: 20px;
   }
+
+@media screen and (max-width: 769px) {
+  .sm-h-full {
+    height: 100%;
+  }
+}
