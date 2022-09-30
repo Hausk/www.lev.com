@@ -184,7 +184,7 @@
                             <div class="flex flex-col p-6 space-y-6 rounded shadow sm:p-8 bg-black w-full">
                                 <div class="space-y-2">
                                     <h4 class="text-2xl text-white font-bold">Découverte</h4>
-                                    <span class="text-6xl text-white font-bold">50 € <span class="text-3xl">/ heure</span></span>
+                                    <span class="text-6xl text-white font-bold">50 €</span>
                                 </div>
                                 <p class="mt-3 leading-relaxed text-red-600">Pour découvrir la photo.</p>
                                 <ul class="flex-1 mb-6 text-red-600">
@@ -214,7 +214,7 @@
                             <div class="flex flex-col p-6 space-y-6 rounded-lg shadow sm:p-8 bg-red-600 w-full lg:-mt-7" style="height: 112%;">
                                 <div class="space-y-2">
                                     <h4 class="text-2xl text-white font-bold">Pro</h4>
-                                    <span class="text-6xl text-white font-bold">100 € <span class="text-3xl">/ heure</span></span>
+                                    <span class="text-6xl text-white font-bold">100 €</span>
                                 </div>
                                 <p class="leading-relaxed">Pour profiter en solo ou en groupe.</p>
                                 <ul class="flex-1 space-y-2">
