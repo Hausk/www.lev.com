@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomepageController;
+use App\Http\Controllers\PhotoBoxController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomepageController::class, 'index']);
+Route::get('/galerie', [PhotoBoxController::class, 'index']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');
