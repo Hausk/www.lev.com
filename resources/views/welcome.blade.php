@@ -207,7 +207,7 @@
                                         <span>Groupe</span>
                                     </li>
                                 </ul>
-                                <a rel="noopener noreferrer" href="mailto:libre.vivant.photographe@gmail.com" class="inline-block w-full px-5 py-3 text-white font-bold tracking-wider text-center rounded bg-black text-red-600">Prendre RDV</a>
+                                <a rel="noopener noreferrer" href="mailto:libre.vivant.photographe@gmail.com" class="inline-block w-full px-5 py-3 font-semibold tracking-wider text-center rounded bg-red-600 text-black">Prendre RDV</a>
                             </div>
                         </div>
                         <div class="flex w-full mb-8 lg:w-1/3 lg:mb-0 lg:rounded-lg sm-h-full">
