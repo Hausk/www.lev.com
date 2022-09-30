@@ -51,16 +51,6 @@
                     >
                         Le site est présent pour développer et montrer ma pate photographiques à tous & rapidement sans devoir installer ou télécharger quelconque applications mobile..
                     </p>
-                    <p
-                        class="text-lg leading-relaxed mt-0 mb-4 text-gray-500"
-                    >
-                        [Ajouter un mini paragraphe]
-                    </p>
-                    <a
-                        href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-                        class="mt-8 mb-4 text-gray-500"
-                        >Mini parti enlevable</a
-                    >
                     </div>
                     <div class="w-full md:w-4/12 px-4 mr-auto ml-auto mt-8 lg:mt-0">
                     <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-red-600">
@@ -150,10 +140,8 @@
                 <div class="container mx-auto px-4 pt-8 lg:pt-24">
                     <div class="flex flex-wrap text-center justify-center">
                         <div class="w-full lg:w-6/12 px-4">
-                        <h2 class="text-4xl font-semibold text-white">Suivez moi sur les réseaux</h2>
-                        <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-                            Ajouter un texte mi-long et constructif pq suivre sur les réseaux
-                        </p>
+                            <h2 class="text-4xl font-semibold text-white">Suivez moi sur les réseaux</h2>
+                            <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
                         </div>
                     </div>
                     <div class="flex flex-wrap mt-12 justify-center">
@@ -165,9 +153,7 @@
                         <h6 class="text-xl mt-5 font-semibold text-white">
                             Instagram
                         </h6>
-                        <p class="mt-2 mb-4 text-gray-500">
-                            Ajouter du texte court et constructif
-                        </p>
+                        <hr/>
                         </div>
                         <div class="w-full lg:w-3/12 px-4 text-center">
                         <div
@@ -178,18 +164,14 @@
                         <h5 class="text-xl mt-5 font-semibold text-white">
                             TikTok
                         </h5>
-                        <p class="mt-2 mb-4 text-gray-500">
-                            Ajouter du texte court et constructif
-                        </p>
+                        <hr/>
                         </div>
                         <div class="w-full lg:w-3/12 px-4 text-center">
                         <div class="bg-red-600 text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
                             <svg class="h-full fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>
                         </div>
                         <h5 class="text-xl mt-5 font-semibold text-white">Facebook</h5>
-                        <p class="mt-2 mb-4 text-gray-500">
-                            Ajouter du texte court et constructif
-                        </p>
+                        <hr/>
                         </div>
                     </div>
                 </div>
@@ -228,7 +210,7 @@
                                         <span>Groupe</span>
                                     </li>
                                 </ul>
-                                <button type="button" class="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-red-600 text-black">Prendre RDV</button>
+                                <a rel="noopener noreferrer" href="mailto:hauskwar@gmail.com" class="inline-block w-full px-5 py-3 text-white font-bold tracking-wider text-center rounded bg-black text-red-600">Prendre RDV</a>
                             </div>
                         </div>
                         <div class="flex w-full mb-8 lg:w-1/3 lg:mb-0 lg:rounded-lg sm-h-full">
@@ -258,7 +240,7 @@
                                         <span>Groupe</span>
                                     </li>
                                 </ul>
-                                <a rel="noopener noreferrer" href="#" class="inline-block w-full px-5 py-3 text-white font-bold tracking-wider text-center rounded bg-black text-red-600">Prendre RDV</a>
+                                <a rel="noopener noreferrer" href="mailto:hauskwar@gmail.com" class="inline-block w-full px-5 py-3 text-white font-bold tracking-wider text-center rounded bg-black text-red-600">Prendre RDV</a>
                             </div>
                         </div>
                         <div class="flex w-full mb-8 lg:w-1/3 lg:mb-0">
@@ -294,7 +276,7 @@
                                         <span>Évènements spécial</span>
                                     </li>
                                 </ul>
-                                <a rel="noopener noreferrer" href="#" class="inline-block w-full px-5 py-3 font-semibold tracking-wider text-center rounded bg-red-600 text-black">Prendre RDV</a>
+                                <a rel="noopener noreferrer" href="mailto:hauskwar@gmail.com" class="inline-block w-full px-5 py-3 font-semibold tracking-wider text-center rounded bg-red-600 text-black">Prendre RDV</a>
                             </div>
                         </div>
                     </div>
