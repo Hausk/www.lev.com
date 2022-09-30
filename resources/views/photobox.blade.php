@@ -22,9 +22,7 @@
                     <div class="items-center flex flex-wrap">
                         <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                             <div class="">
-                                <h1 class="text-white font-semibold text-5xl">
-                                Libre & Vivant
-                                </h1>
+                                <h1 class="text-white font-semibold text-5xl">Libre & Vivant</h1>
                                 <p class="mt-4 text-lg text-gray-300">
                                     Bonjour, je m'appelle Victoria, j'ai fait de la photographie une passion qui permet de rendre heureuses les personnes ou de laisser une émotion sur certaines photographies que personne n'arriverait à voir. Aujourd'hui je me présente à vous afin de pouvoir rendre vos moments encore plus magique et d'en faire des souvenirs inoubliable.
                                 </p>
@@ -47,15 +45,9 @@
                 >
                 </div>
                 <div class="gallery-container w-full lg:w-4/6 m-auto overflow-hidden">
-                    @php
-                        $aos = ['fade-up', 'fade-down', 'fade-right', 'fade-left', 'fade-up-right', 'fade-up-left', 'fade-down-right', 'fade-down-left',
-                                'slide-up', 'slide-down', 'slide-left', 'slide-right'];
-                    @endphp
                     @foreach ($images as $image)
                         <figure>
-                            <img src="/storage/images/{{$image->name}}" class="rounded-lg" 
-                                data-aos="{{ $aos[array_rand($aos)] }}"
-                                data-aos-duration="1{{ $loop->index }}00">
+                            <img src="/storage/images/{{$image->name}}" class="rounded-lg">
                         </figure>
                     @endforeach
                 </div>
