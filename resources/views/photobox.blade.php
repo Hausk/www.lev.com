@@ -40,7 +40,7 @@
                     </svg>
                 </div>
             </div>
-            <section class="relative py-20">
+            <section class="relative py-20 bg-gray-900">
                 <div
                 class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
                 style="height: 80px;"
