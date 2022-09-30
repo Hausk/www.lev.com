@@ -154,7 +154,7 @@
                                 Instagram
                             </h5>
                         </div>
-                        <div class="w-full lg:w-3/12 px-4 text-center my-4">
+                        <div class="w-full lg:w-3/12 px-4 text-center mt-4 mb-4">
                             <div
                                 class="bg-red-600 text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
                             >
