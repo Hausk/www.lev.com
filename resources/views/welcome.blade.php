@@ -26,7 +26,7 @@
                                 Libre & Vivant
                                 </h1>
                                 <p class="mt-4 text-lg text-gray-300">
-                                    Bonjour, je m'appelle Victoria, j'ai fait de la photographie une passion qui permet de rendre heureuses les personnes ou de laisser une émotion sur certaines photographies que personne n'arriverait à voir. Aujourd'hui je me présente à vous afin de pouvoir rendre vos moments encore plus magique et d'en faire des souvenirs inoubliable.
+                                    Bonjour, je m'appelle Victoria, j'ai fait de la photographie une passion qui permet de rendre heureuse les personnes ou de laisser une émotion sur certaines photographies que personne n'arriverait à voir. Aujourd'hui je me présente à vous afin de pouvoir rendre vos moments encore plus magique et d'en faire des souvenirs inoubliables.
                                 </p>
                             </div>
                         </div>
@@ -49,7 +49,7 @@
                     <p
                         class="text-lg leading-relaxed mt-4 mb-4 text-gray-500"
                     >
-                        Le site est présent pour développer et montrer ma pate photographiques à tous & rapidement sans devoir installer ou télécharger quelconque applications mobile..
+                        Le site est présent pour développer et montrer ma pate photographiques à tous & rapidement sans devoir installer ou télécharger quelconque application mobile..
                     </p>
                     <p
                         class="text-lg leading-relaxed mt-0 mb-4 text-gray-500"
@@ -94,7 +94,7 @@
                 </div>
                 </div>
             </section>
-            <section class="relative py-20">
+            <section class="relative py-20 bg-gray-300">
                 <div
                 class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
                 style="height: 80px;"
@@ -108,7 +108,7 @@
                     x="0"
                     y="0">
                     <polygon
-                    class="text-white fill-current"
+                    class="text-gray-300 fill-current"
                     points="2560 0 2560 100 0 100"
                     ></polygon>
                 </svg>
@@ -150,7 +150,7 @@
                 <div class="container mx-auto px-4 pt-8 lg:pt-24">
                     <div class="flex flex-wrap text-center justify-center">
                         <div class="w-full lg:w-6/12 px-4">
-                        <h2 class="text-4xl font-semibold text-white">Suivez moi sur les réseaux</h2>
+                        <h2 class="text-4xl font-semibold text-white">Suivez-moi sur les réseaux</h2>
                         <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
                             Ajouter un texte mi-long et constructif pq suivre sur les réseaux
                         </p>
@@ -197,7 +197,7 @@
             <section class="py-24 bg-gray-900">
                 <div class="container px-4 mx-auto">
                     <div class="max-w-2xl mx-auto mb-16 text-center">
-                        <span class="font-semibold tracking-wider uppercase font-semibold text-white">Table des prix</span>
+                        <span class="font-semibold tracking-wider uppercase font-semibold text-white">TARIFS</span>
                         <h2 class="text-4xl bold text-white lg:text-5xl">Choisissez votre offre</h2>
                     </div>
                     <div class="flex flex-wrap items-stretch justify-center w-5/6 m-auto">
@@ -219,7 +219,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6">
                                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                                         </svg>
-                                        <span>Individuel</span>
+                                        <span>Solo</span>
                                     </li>
                                     <li class="flex mb-2 space-x-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6">
@@ -228,7 +228,7 @@
                                         <span>Groupe</span>
                                     </li>
                                 </ul>
-                                <button type="button" class="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-red-600 text-black">Prendre RDV</button>
+                                <button type="button" class="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-red-600 text-black">Prendre contact</button>
                             </div>
                         </div>
                         <div class="flex w-full mb-8 lg:w-1/3 lg:mb-0 lg:rounded-lg sm-h-full">
@@ -249,7 +249,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6">
                                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                                         </svg>
-                                        <span>Individuel</span>
+                                        <span>Solo</span>
                                     </li>
                                     <li class="flex items-center space-x-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6">
@@ -258,7 +258,7 @@
                                         <span>Groupe</span>
                                     </li>
                                 </ul>
-                                <a rel="noopener noreferrer" href="#" class="inline-block w-full px-5 py-3 text-white font-bold tracking-wider text-center rounded bg-black text-red-600">Prendre RDV</a>
+                                <a rel="noopener noreferrer" href="mailto:hauskwar@gmail.com" class="inline-block w-full px-5 py-3 text-white font-bold tracking-wider text-center rounded bg-black text-red-600">Prendre contact</a>
                             </div>
                         </div>
                         <div class="flex w-full mb-8 lg:w-1/3 lg:mb-0">
@@ -267,7 +267,7 @@
                                     <h4 class="text-2xl text-white font-bold">Évènements</h4>
                                     <span class="text-6xl text-white font-bold">200 €</span>
                                 </div>
-                                <p class="leading-relaxed text-red-600">Pour pas se prendre la tête.</p>
+                                <p class="leading-relaxed text-red-600">Pour ne pas se prendre la tête.</p>
                                 <ul class="space-y-2 text-red-600">
                                     <li class="flex items-start space-x-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6">
@@ -279,7 +279,7 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6">
                                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                                         </svg>
-                                        <span>Individuel</span>
+                                        <span>Solo</span>
                                     </li>
                                     <li class="flex items-start space-x-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6">
@@ -291,10 +291,10 @@
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6">
                                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
                                         </svg>
-                                        <span>Évènements spécial</span>
+                                        <span>Évènements spéciaux</span>
                                     </li>
                                 </ul>
-                                <a rel="noopener noreferrer" href="#" class="inline-block w-full px-5 py-3 font-semibold tracking-wider text-center rounded bg-red-600 text-black">Prendre RDV</a>
+                                <a rel="noopener noreferrer" href="mailto:hauskwar@gmail.com" class="inline-block w-full px-5 py-3 font-semibold tracking-wider text-center rounded bg-red-600 text-black">Prendre contact</a>
                             </div>
                         </div>
                     </div>
