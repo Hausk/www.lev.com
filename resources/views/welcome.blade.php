@@ -140,15 +140,10 @@
                 <div class="container mx-auto px-4 pt-8 lg:pt-24">
                     <div class="flex flex-wrap text-center justify-center">
                         <div class="w-full lg:w-6/12 px-4">
-<<<<<<< HEAD
                         <h2 class="text-4xl font-semibold text-white">Suivez-moi sur les réseaux</h2>
                         <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
                             Ajouter un texte mi-long et constructif pq suivre sur les réseaux
                         </p>
-=======
-                            <h2 class="text-4xl font-semibold text-white">Suivez moi sur les réseaux</h2>
-                            <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
->>>>>>> 88fed46cc37ddafeda9be569becde84e56fc97d3
                         </div>
                     </div>
                     <div class="flex flex-wrap mt-12 justify-center">
@@ -214,11 +209,7 @@
                                         <span>Groupe</span>
                                     </li>
                                 </ul>
-<<<<<<< HEAD
                                 <button type="button" class="inline-block px-5 py-3 font-semibold tracking-wider text-center rounded bg-red-600 text-black">Prendre contact</button>
-=======
-                                <a rel="noopener noreferrer" href="mailto:libre.vivant.photographe@gmail.com" class="inline-block w-full px-5 py-3 font-semibold tracking-wider text-center rounded bg-red-600 text-black">Prendre RDV</a>
->>>>>>> 88fed46cc37ddafeda9be569becde84e56fc97d3
                             </div>
                         </div>
                         <div class="flex w-full mb-8 lg:w-1/3 lg:mb-0 lg:rounded-lg sm-h-full">
@@ -248,11 +239,7 @@
                                         <span>Groupe</span>
                                     </li>
                                 </ul>
-<<<<<<< HEAD
                                 <a rel="noopener noreferrer" href="mailto:hauskwar@gmail.com" class="inline-block w-full px-5 py-3 text-white font-bold tracking-wider text-center rounded bg-black text-red-600">Prendre contact</a>
-=======
-                                <a rel="noopener noreferrer" href="mailto:libre.vivant.photographe@gmail.com" class="inline-block w-full px-5 py-3 text-white font-bold tracking-wider text-center rounded bg-black text-red-600">Prendre RDV</a>
->>>>>>> 88fed46cc37ddafeda9be569becde84e56fc97d3
                             </div>
                         </div>
                         <div class="flex w-full mb-8 lg:w-1/3 lg:mb-0">
@@ -288,11 +275,7 @@
                                         <span>Évènements spéciaux</span>
                                     </li>
                                 </ul>
-<<<<<<< HEAD
                                 <a rel="noopener noreferrer" href="mailto:hauskwar@gmail.com" class="inline-block w-full px-5 py-3 font-semibold tracking-wider text-center rounded bg-red-600 text-black">Prendre contact</a>
-=======
-                                <a rel="noopener noreferrer" href="mailto:libre.vivant.photographe@gmail.com" class="inline-block w-full px-5 py-3 font-semibold tracking-wider text-center rounded bg-red-600 text-black">Prendre RDV</a>
->>>>>>> 88fed46cc37ddafeda9be569becde84e56fc97d3
                             </div>
                         </div>
                     </div>
