@@ -26,7 +26,7 @@
                                 Libre & Vivant
                                 </h1>
                                 <p class="mt-4 text-lg text-gray-300">
-                                    Bonjour, je m'appelle Victoria, j'ai fait de la photographie une passion qui permet de rendre heureuse les personnes ou de laisser une émotion sur certaines photographies que personne n'arriverait à voir. Aujourd'hui je me présente à vous afin de pouvoir rendre vos moments encore plus magique et d'en faire des souvenirs inoubliables.
+                                    Bonjour, je m'appelle Victoria, j'ai fait de la photographie une passion qui permet de rendre heureuse les personnes ou de laisser une émotion sur certaines photographies que personne n'arriverait à voir. Aujourd'hui je me présente à vous afin de pouvoir rendre vos moments encore plus magiques et d'en faire des souvenirs inoubliables.
                                 </p>
                             </div>
                         </div>
@@ -76,7 +76,7 @@
                             Victoria
                         </h4>
                         <p class="text-md font-light mt-2 text-white">
-                            Passionnée de Photographie depuis quelques années maintenant, je vous propose mes services
+                            Passionnées de Photographie depuis quelques années maintenant, je vous propose mes services
                         </p>
                         </blockquote>
                     </div>
@@ -179,7 +179,7 @@
                 <div class="container px-4 mx-auto">
                     <div class="max-w-3xl mx-auto mb-16 text-center">
                         <span class="font-semibold tracking-wider uppercase font-semibold text-white">TARIFS</span>
-                        <h2 class="text-4xl bold text-white lg:text-5xl">Quelle offre vous représente le plus</h2>
+                        <h2 class="text-4xl bold text-white lg:text-5xl">Quelle offre vous représente le plus ?</h2>
                     </div>
                     <div class="flex flex-wrap items-stretch justify-center w-5/6 m-auto">
                         <div class="flex w-full mb-8 lg:w-1/3 lg:mb-0">
