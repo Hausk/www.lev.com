@@ -76,7 +76,7 @@
                             Victoria
                         </h4>
                         <p class="text-md font-light mt-2 text-white">
-                            Passionée de Photographie depuis quelques années maintenant, je vous propose mes services
+                            Passionnée de Photographie depuis quelques années maintenant, je vous propose mes services
                         </p>
                         </blockquote>
                     </div>
@@ -179,7 +179,7 @@
                 <div class="container px-4 mx-auto">
                     <div class="max-w-2xl mx-auto mb-16 text-center">
                         <span class="font-semibold tracking-wider uppercase font-semibold text-white">TARIFS</span>
-                        <h2 class="text-4xl bold text-white lg:text-5xl">Choisissez votre offre</h2>
+                        <h2 class="text-4xl bold text-white lg:text-5xl">Quelle offre vous représente le plus</h2>
                     </div>
                     <div class="flex flex-wrap items-stretch justify-center w-5/6 m-auto">
                         <div class="flex w-full mb-8 lg:w-1/3 lg:mb-0">
