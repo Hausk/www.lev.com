@@ -177,7 +177,7 @@
             </section>
             <section class="py-24 bg-gray-900">
                 <div class="container px-4 mx-auto">
-                    <div class="max-w-2xl mx-auto mb-16 text-center">
+                    <div class="max-w-3xl mx-auto mb-16 text-center">
                         <span class="font-semibold tracking-wider uppercase font-semibold text-white">TARIFS</span>
                         <h2 class="text-4xl bold text-white lg:text-5xl">Quelle offre vous représente le plus</h2>
                     </div>
