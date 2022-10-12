@@ -11,7 +11,6 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="antialiased" id="app">
-        <navbar-component></navbar-component>
         <main>
             <div class="relative pt-16 pb-32 flex content-center items-center justify-center h-screen">
                 <div class="absolute top-0 w-full h-full bg-center bg-cover" 
@@ -23,7 +22,7 @@
                         <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                             <div class="">
                                 <h1 class="text-white font-semibold text-5xl">
-                                Libre & Vivant
+                                    Libre & Vivant
                                 </h1>
                                 <p class="mt-4 text-lg text-gray-300">
                                     Bonjour, je m'appelle Victoria, j'ai fait de la photographie une passion qui permet de rendre heureuse les personnes ou de laisser une émotion sur certaines photographies que personne n'arriverait à voir. Aujourd'hui je me présente à vous afin de pouvoir rendre vos moments encore plus magiques et d'en faire des souvenirs inoubliables.
@@ -104,19 +103,90 @@
                 </svg>
                 </div>
                 <div class="gallery-container w-full lg:w-4/6 m-auto overflow-hidden">
-                    @php
-                        $aos = ['fade-up', 'fade-down', 'fade-right', 'fade-left', 'fade-up-right', 'fade-up-left', 'fade-down-right', 'fade-down-left',
-                                'slide-up', 'slide-down', 'slide-left', 'slide-right'];
-                    @endphp
-                    @foreach ($images as $image)
-                        <figure>
-                            <img src="/storage/images/{{$image->name}}" class="rounded-lg" 
-                                data-aos="{{ $aos[array_rand($aos)] }}"
-                                data-aos-duration="1{{ $loop->index }}00">
+                    @foreach ($imageRelated as $imgRelated)
+                        <figure data-modal-toggle="popup-modal-{{ $imgRelated->id }}">
+                            <img src="/images/thumbnail/{{ $imgRelated->message }}" class="rounded-lg">
                         </figure>
+                        <div id="popup-modal-{{ $imgRelated->id }}" tabindex="-1" class="hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full">
+                            <div class="relative p-4 w-full max-w-7xl h-full md:h-auto">
+                                <!-- Modal content -->
+                                <div class="container mx-auto lg:grid lg:grid-cols-3 lg:gap-2">
+                                    <div class="w-full rounded">
+                                        <a class="spotlight" href="/images/standard/{{ $imageListRelated[$imgRelated->categories_id][1]->message }}"
+                                            data-src-800="/images/standard/{{ $imageListRelated[$imgRelated->categories_id][1]->message }}"
+                                            data-src-1200="/images/standard/{{ $imageListRelated[$imgRelated->categories_id][1]->message }}"
+                                            data-src-2400="https://cdn.pixabay.com/photo/2022/06/03/03/50/beach-7239311__340.jpg"
+                                            data-src-3800="https://cdn.pixabay.com/photo/2022/06/03/03/50/beach-7239311__340.jpg">
+                                            <img src="/images/standard/{{ $imageListRelated[$imgRelated->categories_id][1]->message }}">
+                                        </a>
+                                    </div>
+                                <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                                    <div class="">
+                                        <div id="animation-carousel" class="relative" data-carousel="static">
+                                            <!-- Carousel wrapper -->
+                                            <div class="relative h-full rounded-lg md:h-96">
+                                                 <!-- Item 1 -->
+                                                @foreach ($imageListRelated[$imgRelated->categories_id] as $image)
+                                                    <div class="hidden duration-200 ease-linear" data-carousel-item>
+                                                        <img src="/images/standard/{{ $image->message }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                                                    </div>
+                                                @endforeach
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     @endforeach
                 </div>
             </section>
+            <div class="container mx-auto lg:grid lg:grid-cols-3 lg:gap-2">
+                <div class="w-full rounded">
+                    <a class="spotlight" href="https://cdn.pixabay.com/photo/2022/06/03/03/50/beach-7239311__340.jpg"
+                        data-src-800="https://cdn.pixabay.com/photo/2022/06/03/03/50/beach-7239311__340.jpg"
+                        data-src-1200="https://cdn.pixabay.com/photo/2022/06/03/03/50/beach-7239311__340.jpg"
+                        data-src-2400="https://cdn.pixabay.com/photo/2022/06/03/03/50/beach-7239311__340.jpg"
+                        data-src-3800="https://cdn.pixabay.com/photo/2022/06/03/03/50/beach-7239311__340.jpg">
+                        <img src="https://cdn.pixabay.com/photo/2022/06/03/03/50/beach-7239311__340.jpg">
+                    </a>
+                </div>
+                <div class="w-full rounded">
+                    <a class="spotlight" href="https://cdn.pixabay.com/photo/2022/06/06/17/56/flowers-7246619__340.jpg"
+                        data-src-800="https://cdn.pixabay.com/photo/2022/06/06/17/56/flowers-7246619__340.jpg"
+                        data-src-1200="https://cdn.pixabay.com/photo/2022/06/06/17/56/flowers-7246619__340.jpg"
+                        data-src-2400="https://cdn.pixabay.com/photo/2022/06/06/17/56/flowers-7246619__340.jpg"
+                        data-src-3800="https://cdn.pixabay.com/photo/2022/06/06/17/56/flowers-7246619__340.jpg">
+                        <img src="https://cdn.pixabay.com/photo/2022/06/06/17/56/flowers-7246619__340.jpg">
+                    </a>
+                </div>
+                <div class="w-full rounded">
+                    <a class="spotlight" href="https://cdn.pixabay.com/photo/2022/06/22/18/28/deer-7278490__340.jpg"
+                        data-src-800="https://cdn.pixabay.com/photo/2022/06/22/18/28/deer-7278490__340.jpg"
+                        data-src-1200="https://cdn.pixabay.com/photo/2022/06/22/18/28/deer-7278490__340.jpg"
+                        data-src-2400="https://cdn.pixabay.com/photo/2022/06/22/18/28/deer-7278490__340.jpg"
+                        data-src-3800="https://cdn.pixabay.com/photo/2022/06/22/18/28/deer-7278490__340.jpg">
+                        <img src="https://cdn.pixabay.com/photo/2022/06/22/18/28/deer-7278490__340.jpg">
+                    </a>
+                </div>
+                <div class="w-full rounded">
+                    <a class="spotlight" href="https://cdn.pixabay.com/photo/2022/01/04/16/01/lighthouse-6915406__340.jpg"
+                        data-src-800="https://cdn.pixabay.com/photo/2022/01/04/16/01/lighthouse-6915406__340.jpg"
+                        data-src-1200="https://cdn.pixabay.com/photo/2022/01/04/16/01/lighthouse-6915406__340.jpg"
+                        data-src-2400="https://cdn.pixabay.com/photo/2022/01/04/16/01/lighthouse-6915406__340.jpg"
+                        data-src-3800="https://cdn.pixabay.com/photo/2022/01/04/16/01/lighthouse-6915406__340.jpg">
+                        <img src="https://cdn.pixabay.com/photo/2022/01/04/16/01/lighthouse-6915406__340.jpg">
+                    </a>
+                </div>
+                <div class="w-full rounded">
+                    <a class="spotlight" href="https://cdn.pixabay.com/photo/2022/06/19/07/12/mount-kilimanjaro-7271184__340.jpg"
+                        data-src-800="https://cdn.pixabay.com/photo/2022/06/19/07/12/mount-kilimanjaro-7271184__340.jpg"
+                        data-src-1200="https://cdn.pixabay.com/photo/2022/06/19/07/12/mount-kilimanjaro-7271184__340.jpg"
+                        data-src-2400="https://cdn.pixabay.com/photo/2022/06/19/07/12/mount-kilimanjaro-7271184__340.jpg"
+                        data-src-3800="https://cdn.pixabay.com/photo/2022/06/19/07/12/mount-kilimanjaro-7271184__340.jpg">
+                        <img src="https://cdn.pixabay.com/photo/2022/06/19/07/12/mount-kilimanjaro-7271184__340.jpg">
+                    </a>
+                </div>
+            </div>
             <section class="relative block bg-gray-900">
                 <div
                 class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
@@ -283,5 +353,25 @@
             </section>
         </main>
         <footer-component></footer-component>
+        <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+        <script>
+            // Get the modal by id
+            var modal = document.getElementById("modal");
+    
+            // Get the modal image tag
+            var modalImg = document.getElementById("modal-img");
+    
+            // this function is called when a small image is clicked
+            function showModal(src) {
+                modal.classList.remove('hidden');
+                modalImg.src = src;
+            }
+    
+            // this function is called when the close button is clicked
+            function closeModal() {
+                modal.classList.add('hidden');
+            }
+        </script>
+    
     </body>
 </html>
