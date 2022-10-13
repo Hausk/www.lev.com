@@ -14,10 +14,12 @@ class HomepageController extends Controller
         $imageRelated = [];
         $imageListRelated = [];
         foreach ($categories as $category) {
+            $data = DB::table('posts')->where('categories_id', $category->id)->first();
+            if (!$data)
+                continue;
             $imageRelated[] = DB::table('posts')->where('categories_id', $category->id)->first();
-            $imageListRelated[$category->id] = DB::table('posts')->where('categories_id', $category->id)->get();
+            $imageListRelated[$category->id] = DB::table('posts')->where('categories_id', $category->id)->get()->skip(1);
         }
-        $htmlContent = DB::table('htmlContent')->get();
-        return view('welcome', ['images' => $images, 'imageRelated' => $imageRelated, 'imageListRelated' => $imageListRelated, 'categories' => $categories, 'htmlContent' => $htmlContent]);
+        return view('welcome', ['images' => $images, 'imageRelated' => $imageRelated, 'imageListRelated' => $imageListRelated, 'categories' => $categories]);
     }
 }

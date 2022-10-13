@@ -4,7 +4,7 @@ import NavbarComponent from './components/NavBar.vue';
 import FooterComponent from './components/Footer.vue';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import "spotlight.js";
+import "spotlight.js/dist/spotlight.bundle";
 
 import Alpine from 'alpinejs';
 

@@ -104,89 +104,18 @@
                 </div>
                 <div class="gallery-container w-full lg:w-4/6 m-auto overflow-hidden">
                     @foreach ($imageRelated as $imgRelated)
-                        <figure data-modal-toggle="popup-modal-{{ $imgRelated->id }}">
-                            <img src="/images/thumbnail/{{ $imgRelated->message }}" class="rounded-lg">
+                        <figure class="spotlight-group">
+                            <a class="spotlight" href="/images/standard/{{ $imgRelated->message }}">
+                                <img src="/images/thumbnail/{{ $imgRelated->message }}" class="rounded-lg">
+                            </a>
+                            @foreach ($imageListRelated[$imgRelated->categories_id] as $image)
+                                <a class="spotlight hidden" href="/images/standard/{{ $image->message }}">
+                                </a>
+                            @endforeach
                         </figure>
-                        <div id="popup-modal-{{ $imgRelated->id }}" tabindex="-1" class="hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full">
-                            <div class="relative p-4 w-full max-w-7xl h-full md:h-auto">
-                                <!-- Modal content -->
-                                <div class="container mx-auto lg:grid lg:grid-cols-3 lg:gap-2">
-                                    <div class="w-full rounded">
-                                        <a class="spotlight" href="/images/standard/{{ $imageListRelated[$imgRelated->categories_id][1]->message }}"
-                                            data-src-800="/images/standard/{{ $imageListRelated[$imgRelated->categories_id][1]->message }}"
-                                            data-src-1200="/images/standard/{{ $imageListRelated[$imgRelated->categories_id][1]->message }}"
-                                            data-src-2400="https://cdn.pixabay.com/photo/2022/06/03/03/50/beach-7239311__340.jpg"
-                                            data-src-3800="https://cdn.pixabay.com/photo/2022/06/03/03/50/beach-7239311__340.jpg">
-                                            <img src="/images/standard/{{ $imageListRelated[$imgRelated->categories_id][1]->message }}">
-                                        </a>
-                                    </div>
-                                <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
-                                    <div class="">
-                                        <div id="animation-carousel" class="relative" data-carousel="static">
-                                            <!-- Carousel wrapper -->
-                                            <div class="relative h-full rounded-lg md:h-96">
-                                                 <!-- Item 1 -->
-                                                @foreach ($imageListRelated[$imgRelated->categories_id] as $image)
-                                                    <div class="hidden duration-200 ease-linear" data-carousel-item>
-                                                        <img src="/images/standard/{{ $image->message }}" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                                                    </div>
-                                                @endforeach
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     @endforeach
                 </div>
             </section>
-            <div class="container mx-auto lg:grid lg:grid-cols-3 lg:gap-2">
-                <div class="w-full rounded">
-                    <a class="spotlight" href="https://cdn.pixabay.com/photo/2022/06/03/03/50/beach-7239311__340.jpg"
-                        data-src-800="https://cdn.pixabay.com/photo/2022/06/03/03/50/beach-7239311__340.jpg"
-                        data-src-1200="https://cdn.pixabay.com/photo/2022/06/03/03/50/beach-7239311__340.jpg"
-                        data-src-2400="https://cdn.pixabay.com/photo/2022/06/03/03/50/beach-7239311__340.jpg"
-                        data-src-3800="https://cdn.pixabay.com/photo/2022/06/03/03/50/beach-7239311__340.jpg">
-                        <img src="https://cdn.pixabay.com/photo/2022/06/03/03/50/beach-7239311__340.jpg">
-                    </a>
-                </div>
-                <div class="w-full rounded">
-                    <a class="spotlight" href="https://cdn.pixabay.com/photo/2022/06/06/17/56/flowers-7246619__340.jpg"
-                        data-src-800="https://cdn.pixabay.com/photo/2022/06/06/17/56/flowers-7246619__340.jpg"
-                        data-src-1200="https://cdn.pixabay.com/photo/2022/06/06/17/56/flowers-7246619__340.jpg"
-                        data-src-2400="https://cdn.pixabay.com/photo/2022/06/06/17/56/flowers-7246619__340.jpg"
-                        data-src-3800="https://cdn.pixabay.com/photo/2022/06/06/17/56/flowers-7246619__340.jpg">
-                        <img src="https://cdn.pixabay.com/photo/2022/06/06/17/56/flowers-7246619__340.jpg">
-                    </a>
-                </div>
-                <div class="w-full rounded">
-                    <a class="spotlight" href="https://cdn.pixabay.com/photo/2022/06/22/18/28/deer-7278490__340.jpg"
-                        data-src-800="https://cdn.pixabay.com/photo/2022/06/22/18/28/deer-7278490__340.jpg"
-                        data-src-1200="https://cdn.pixabay.com/photo/2022/06/22/18/28/deer-7278490__340.jpg"
-                        data-src-2400="https://cdn.pixabay.com/photo/2022/06/22/18/28/deer-7278490__340.jpg"
-                        data-src-3800="https://cdn.pixabay.com/photo/2022/06/22/18/28/deer-7278490__340.jpg">
-                        <img src="https://cdn.pixabay.com/photo/2022/06/22/18/28/deer-7278490__340.jpg">
-                    </a>
-                </div>
-                <div class="w-full rounded">
-                    <a class="spotlight" href="https://cdn.pixabay.com/photo/2022/01/04/16/01/lighthouse-6915406__340.jpg"
-                        data-src-800="https://cdn.pixabay.com/photo/2022/01/04/16/01/lighthouse-6915406__340.jpg"
-                        data-src-1200="https://cdn.pixabay.com/photo/2022/01/04/16/01/lighthouse-6915406__340.jpg"
-                        data-src-2400="https://cdn.pixabay.com/photo/2022/01/04/16/01/lighthouse-6915406__340.jpg"
-                        data-src-3800="https://cdn.pixabay.com/photo/2022/01/04/16/01/lighthouse-6915406__340.jpg">
-                        <img src="https://cdn.pixabay.com/photo/2022/01/04/16/01/lighthouse-6915406__340.jpg">
-                    </a>
-                </div>
-                <div class="w-full rounded">
-                    <a class="spotlight" href="https://cdn.pixabay.com/photo/2022/06/19/07/12/mount-kilimanjaro-7271184__340.jpg"
-                        data-src-800="https://cdn.pixabay.com/photo/2022/06/19/07/12/mount-kilimanjaro-7271184__340.jpg"
-                        data-src-1200="https://cdn.pixabay.com/photo/2022/06/19/07/12/mount-kilimanjaro-7271184__340.jpg"
-                        data-src-2400="https://cdn.pixabay.com/photo/2022/06/19/07/12/mount-kilimanjaro-7271184__340.jpg"
-                        data-src-3800="https://cdn.pixabay.com/photo/2022/06/19/07/12/mount-kilimanjaro-7271184__340.jpg">
-                        <img src="https://cdn.pixabay.com/photo/2022/06/19/07/12/mount-kilimanjaro-7271184__340.jpg">
-                    </a>
-                </div>
-            </div>
             <section class="relative block bg-gray-900">
                 <div
                 class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
@@ -249,7 +178,7 @@
                 <div class="container px-4 mx-auto">
                     <div class="max-w-3xl mx-auto mb-16 text-center">
                         <span class="font-semibold tracking-wider uppercase font-semibold text-white">TARIFS</span>
-                        <h2 class="text-4xl bold text-white lg:text-5xl">Quelle offre vous représente le plus ?</h2>
+                        <h2 class="text-4xl bold text-white mt-2">Quelle offre vous représente le plus ?</h2>
                     </div>
                     <div class="flex flex-wrap items-stretch justify-center w-5/6 m-auto">
                         <div class="flex w-full mb-8 lg:w-1/3 lg:mb-0">
@@ -354,24 +283,6 @@
         </main>
         <footer-component></footer-component>
         <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
-        <script>
-            // Get the modal by id
-            var modal = document.getElementById("modal");
-    
-            // Get the modal image tag
-            var modalImg = document.getElementById("modal-img");
-    
-            // this function is called when a small image is clicked
-            function showModal(src) {
-                modal.classList.remove('hidden');
-                modalImg.src = src;
-            }
-    
-            // this function is called when the close button is clicked
-            function closeModal() {
-                modal.classList.add('hidden');
-            }
-        </script>
     
     </body>
 </html>
