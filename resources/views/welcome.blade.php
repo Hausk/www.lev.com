@@ -282,7 +282,5 @@
             </section>
         </main>
         <footer-component></footer-component>
-        <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
-    
     </body>
 </html>
