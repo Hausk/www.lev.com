@@ -25,7 +25,7 @@
                                     Libre & Vivant
                                 </h1>
                                 <p class="mt-4 text-lg text-gray-300">
-                                    Bonjour, je m'appelle Victoria, j'ai fait de la photographie une passion qui permet de rendre heureuse les personnes ou de laisser une émotion sur certaines photographies que personne n'arriverait à voir. Aujourd'hui je me présente à vous afin de pouvoir rendre vos moments encore plus magiques et d'en faire des souvenirs inoubliables.
+                                    Bonjour, je m'appelle Victoria, j'ai fait de la photographie une passion qui permet de rendre les personnes heureuses, de laisser une émotion sur certaines photographies que personne n'arriverait à voir. Aujourd'hui je me présente à vous afin de pouvoir rendre vos moments encore plus magiques et d'en faire des souvenirs inoubliables.
                                 </p>
                             </div>
                         </div>
@@ -45,10 +45,8 @@
                     <h3 class="text-4xl font-semibold text-white">
                         Libre & Vivant
                     </h3>
-                    <p
-                        class="text-lg leading-relaxed mt-4 mb-4 text-gray-500"
-                    >
-                        Le site est présent pour développer et montrer ma pate photographiques à tous & rapidement sans devoir installer ou télécharger quelconque application mobile..
+                    <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
+                        Le site à été réalisé pour exposer quelques-unes de mes photographies à tous sans devoir installer ou télécharger quelconque application mobile, ou même de pouvoir me contacter
                     </p>
                     </div>
                     <div class="w-full md:w-4/12 px-4 mr-auto ml-auto mt-8 lg:mt-0">
@@ -75,7 +73,7 @@
                             Victoria
                         </h4>
                         <p class="text-md font-light mt-2 text-white">
-                            Passionnées de Photographie depuis quelques années maintenant, je vous propose mes services
+                            Passionnée de photographie depuis quelques années maintenant, je vous propose mes services
                         </p>
                         </blockquote>
                     </div>
@@ -83,7 +81,7 @@
                 </div>
                 </div>
             </section>
-            <section class="relative py-20 bg-gray-300">
+            <section class="relative pb-10 pt-8 bg-gray-300">
                 <div
                 class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
                 style="height: 80px;"
@@ -102,10 +100,14 @@
                     ></polygon>
                 </svg>
                 </div>
+                <h2 class="text-4xl text-center mb-9">A vous de choisir</h2>
                 <div class="gallery-container w-full lg:w-4/6 m-auto overflow-hidden">
                     @foreach ($imageRelated as $imgRelated)
-                        <figure class="spotlight-group">
-                            <a class="spotlight" href="/images/standard/{{ $imgRelated->message }}">
+                        <figure class="spotlight-group testinged" animation="fade">
+                            <div class="flex absolute text-white translate-x-4 translate-y-4 px-5 py-1 rounded-full" style="background: rgba(0,0,0,0.3">
+                                <p class="">{{ $imgRelated->category_message }}</p>                   
+                            </div>
+                            <a class="spotlight" href="/images/standard/{{ $imgRelated->message }}" data-animation="my-animation">
                                 <img src="/images/thumbnail/{{ $imgRelated->message }}" class="rounded-lg">
                             </a>
                             @foreach ($imageListRelated[$imgRelated->categories_id] as $image)
@@ -139,10 +141,7 @@
                 <div class="container mx-auto px-4 pt-8 lg:pt-24">
                     <div class="flex flex-wrap text-center justify-center">
                         <div class="w-full lg:w-6/12 px-4">
-                        <h2 class="text-4xl font-semibold text-white">Suivez-moi sur les réseaux</h2>
-                        <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-                            Ajouter un texte mi-long et constructif pq suivre sur les réseaux
-                        </p>
+                            <h2 class="text-4xl font-semibold text-white">Suivez-moi sur les réseaux</h2>
                         </div>
                     </div>
                     <div class="flex flex-wrap mt-12 justify-center">
@@ -155,9 +154,9 @@
                                 Instagram
                             </h5>
                         </div>
-                        <div class="w-full lg:w-3/12 px-4 text-center mt-4 mb-4">
+                        <div class="w-full lg:w-3/12 px-4 text-center my-8 lg:my-0">
                             <div
-                                class="bg-red-600 text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
+                                class="bg-red-600 p-3 text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
                             >
                                 <svg class="h-full fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"/></svg>
                             </div>
@@ -174,10 +173,9 @@
                     </div>
                 </div>
             </section>
-            <section class="py-24 bg-gray-900">
+            <section class="py-20 pt-10 bg-gray-900">
                 <div class="container px-4 mx-auto">
-                    <div class="max-w-3xl mx-auto mb-16 text-center">
-                        <span class="font-semibold tracking-wider uppercase font-semibold text-white">TARIFS</span>
+                    <div class="max-w-3xl mx-auto mb-14 text-center">
                         <h2 class="text-4xl bold text-white mt-2">Quelle offre vous représente le plus ?</h2>
                     </div>
                     <div class="flex flex-wrap items-stretch justify-center w-5/6 m-auto">
@@ -187,7 +185,7 @@
                                     <h4 class="text-2xl text-white font-bold">Découverte</h4>
                                     <span class="text-6xl text-white font-bold">50 €</span>
                                 </div>
-                                <p class="mt-3 leading-relaxed text-red-600">Pour découvrir la photo.</p>
+                                <p class="mt-3 leading-relaxed text-red-600">Pour découvrir la photo</p>
                                 <ul class="flex-1 mb-6 text-red-600">
                                     <li class="flex mb-2 space-x-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6">
@@ -217,7 +215,7 @@
                                     <h4 class="text-2xl text-white font-bold">Pro</h4>
                                     <span class="text-6xl text-white font-bold">100 €</span>
                                 </div>
-                                <p class="leading-relaxed">Pour profiter en solo ou en groupe.</p>
+                                <p class="leading-relaxed">Pour profiter en solo ou en groupe</p>
                                 <ul class="flex-1 space-y-2">
                                     <li class="flex items-center space-x-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6">
@@ -247,7 +245,7 @@
                                     <h4 class="text-2xl text-white font-bold">Évènements</h4>
                                     <span class="text-6xl text-white font-bold">200 €</span>
                                 </div>
-                                <p class="leading-relaxed text-red-600">Pour ne pas se prendre la tête.</p>
+                                <p class="leading-relaxed text-red-600">Pour ne pas se prendre la tête</p>
                                 <ul class="space-y-2 text-red-600">
                                     <li class="flex items-start space-x-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="flex-shrink-0 w-6 h-6">

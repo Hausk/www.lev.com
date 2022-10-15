@@ -17,7 +17,7 @@ class HomepageController extends Controller
             $data = DB::table('posts')->where('categories_id', $category->id)->first();
             if (!$data)
                 continue;
-            $imageRelated[] = DB::table('posts')->where('categories_id', $category->id)->first();
+            $imageRelated[] = DB::table('posts')->join('categories', 'posts.categories_id', '=', 'categories.id')->select('posts.*', 'categories.message as category_message')->where('categories_id', $category->id)->first();
             $imageListRelated[$category->id] = DB::table('posts')->where('categories_id', $category->id)->get()->skip(1);
         }
         return view('welcome', ['images' => $images, 'imageRelated' => $imageRelated, 'imageListRelated' => $imageListRelated, 'categories' => $categories]);
